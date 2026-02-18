@@ -1,0 +1,55 @@
+{% load static %}
+<footer class="bg-dark text-light pt-5 pb-3">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-3">
+        <h5 class="mb-3">About Spa &amp; Beauty</h5>
+        <p class="small-para">
+          Premium wellness and beauty rituals designed to relax, refresh, and renew. Step into serenity with our expert team.
+        </p>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="mb-3">Quick Links</h5>
+        <ul class="list-unstyled footer-links">
+          <li><a href="{% static 'index' %}"><i class="fa-solid fa-angle-right me-1"></i> Home</a></li>
+          <li><a href="{% static 'about' %}"><i class="fa-solid fa-angle-right me-1"></i> About</a></li>
+          <li><a href="{% static 'services' %}"><i class="fa-solid fa-angle-right me-1"></i> Services</a></li>
+          <li><a href="{% static 'gallery' %}"><i class="fa-solid fa-angle-right me-1"></i> Gallery</a></li>
+          <li><a href="{% static 'contact' %}"><i class="fa-solid fa-angle-right me-1"></i> Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="mb-3">Opening Hours</h5>
+        <ul class="list-unstyled small-para">
+          <li>Mon–Fri: 10:00 AM – 8:00 PM</li>
+          <li>Sat: 10:00 AM – 9:00 PM</li>
+          <li>Sun: 11:00 AM – 6:00 PM</li>
+        </ul>
+      </div>
+
+      <div class="col-md-3">
+        <h5 class="mb-3">Contact</h5>
+        <p class="mb-1"><i class="fa-solid fa-location-dot me-2"></i> 123 Spa Street, City</p>
+        <p class="mb-1"><i class="fa-solid fa-phone me-2"></i> +91 98765 43210</p>
+        <p class="mb-3"><i class="fa-solid fa-envelope me-2"></i> info@spa.com</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="text-light"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-light"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-4">
+  <small>© 2025 Spa & Beauty. All rights reserved.</small><br>
+  <small>Designed by <span style="color:#ff4d4d;">Ritu Gorai</span></small>
+</div>
+  </div>
+</footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static 'JS/script.js' %}"></script>
+   
+</body>
+</html>

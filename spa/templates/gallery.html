@@ -1,0 +1,140 @@
+{% load static %}
+{% include 'header.html' %}
+    <!-- Banner Section -->
+  <div class="banner">
+    <img src="{% static 'IMG/banner.jpg' %}" alt="Spa Banner">
+    <h1>Our Spa & Beauty Gallery </h1>
+  </div>
+
+  <section class="page-header">
+    <div class="container">
+    <h5>OUR Gallery</h5>
+    <h2>✨Let's See Our Gallery✨</h2>
+    </div>
+    
+  <!-- </section> -->
+  
+<!-- Filter Buttons -->
+  <div class="filter-buttons">
+    <button class="filter-btn active" data-category="all">All</button>
+    <button class="filter-btn" data-category="spa">Spa</button>
+    <button class="filter-btn" data-category="massage">Massage</button>
+    <button class="filter-btn" data-category="makeup">Makeup</button>
+    <button class="filter-btn" data-category="hair">Hair</button>
+    <button class="filter-btn" data-category="nails">Nails</button>
+    <button class="filter-btn" data-category="skincare">SkinCare</button>
+  </div>
+  </section>
+  <!-- Gallery -->
+  <section class="gallery">
+
+    <!-- 24 Images (4 per category) -->
+    <!-- Spa -->
+    <div class="item" data-category="spa">
+      <img src="{% static 'IMG/spa room.jpg' %}" alt="">
+      <p>Luxury Spa Room</p>
+    </div>
+    <div class="item" data-category="spa">
+      <img src="{% static 'IMG/aroma.jpg' %}" alt="">
+      <p>Spa Aromatherapy</p>
+    </div>
+    <div class="item" data-category="spa">
+      <img src="{% static 'IMG/hot stone spa.jpg' %}" alt="">
+      <p>Hot Stone Spa</p>
+    </div>
+    <div class="item" data-category="spa">
+      <img src="{% static 'IMG/relaxation spa.jpg' %}" alt="">
+      <p>Relaxation Spa</p>
+    </div>
+
+    <!-- Massage -->
+    <div class="item" data-category="massage">
+      <img src="{% static 'IMG/back massage.jpg' %}" alt="">
+      <p>Back Massage</p>
+    </div>
+    <div class="item" data-category="massage">
+      <img src="{% static 'IMG/deep tissue massage.jpg' %}" alt="">
+      <p>Deep Tissue Massage</p>
+    </div>
+    <div class="item" data-category="massage">
+      <img src="{% static 'IMG/foot reflexology.jpg' %}" alt="">
+      <p>Foot Reflexology</p>
+    </div>
+    <div class="item" data-category="massage">
+      <img src="{% static 'IMG/couple massage.jpg' %}" alt="">
+      <p>Couple Massage</p>
+    </div>
+
+    <!-- Makeup -->
+    <div class="item" data-category="makeup">
+      <img src="{% static 'IMG/bridal mackup.jpg' %}" alt="">
+      <p>Bridal Makeup</p>
+    </div>
+    <div class="item" data-category="makeup">
+      <img src="{% static 'IMG/partylook.jpg' %}" alt="">
+      <p>Party Look</p>
+    </div>
+    <div class="item" data-category="makeup">
+      <img src="{% static 'IMG/eye mackup.jpg' %}" alt="">
+      <p>Eye Makeup</p>
+    </div>
+    <div class="item" data-category="makeup">
+      <img src="{% static 'IMG/natural glow.jpg' %}" alt="">
+      <p>Natural Glow</p>
+    </div>
+
+    <!-- Hair -->
+    <div class="item" data-category="hair">
+      <img src="{% static 'IMG/hair styling.jpg' %}" alt="">
+      <p>Hair Styling</p>
+    </div>
+    <div class="item" data-category="hair">
+      <img src="{% static 'IMG/hair colour.jpg' %}" alt="">
+      <p>Hair Coloring</p>
+    </div>
+    <div class="item" data-category="hair">
+      <img src="{% static 'IMG/hair treatment.jpg' %}" alt="">
+      <p>Hair Treatment</p>
+    </div>
+    <div class="item" data-category="hair">
+      <img src="{% static 'IMG/hair cutting.jpg' %}" alt="">
+      <p>Hair Cutting</p>
+    </div>
+
+    <!-- Nails -->
+    <div class="item" data-category="nails">
+      <img src="{% static 'IMG/nail art.jpg' %}" alt="">
+      <p>Nail Art</p>
+    </div>
+    <div class="item" data-category="nails">
+      <img src="{% static 'IMG/french nails.jpg' %}" alt="">
+      <p>French Nails</p>
+    </div>
+    <div class="item" data-category="nails">
+      <img src="{% static 'IMG/gel nails.jpg' %}" alt="">
+      <p>Gel Nails</p>
+    </div>
+    <div class="item" data-category="nails">
+      <img src="{% static 'IMG/colourful nails.jpg' %}" alt="">
+      <p>Colorful Nails</p>
+    </div>
+
+    <!-- SkinCare -->
+    <div class="item" data-category="skincare">
+      <img src="{% static 'IMG/organic facial.jpg' %}" alt="">
+      <p>Facial Mask</p>
+    </div>
+    <div class="item" data-category="skincare">
+      <img src="{% static 'IMG/skin glow.jpg' %}" alt="">
+      <p>Skin Glow</p>
+    </div>
+    <div class="item" data-category="skincare">
+      <img src="{% static 'IMG/organic facial1.jpg' %}" alt="">
+      <p>Organic Facial</p>
+    </div>
+    <div class="item" data-category="skincare">
+      <img src="{% static 'IMG/skin treatment.jpg' %}" alt="">
+      <p>Skin Treatment</p>
+    </div>
+
+  {% include 'footer.html' %}
